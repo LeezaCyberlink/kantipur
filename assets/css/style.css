@@ -31,7 +31,7 @@
 
 .uk-circle-inner-section {
     border-radius: 100%;
-    background-color: #342F7F;
+    background-color: var(--secondary);
     height: 110px;
     width: 110px;
     display: flex;
@@ -76,11 +76,11 @@
 }
 
 .uk-commit-text h3:hover {
-    color: #38AC4B !important;
+    color: var(--secondary) !important;
 }
 
 .uk-dotnav>.uk-active>* {
-    background-color: #342F7F;
+    background-color: var(--primary);
 }
 
 .uk-dotnav>*>* {
@@ -89,7 +89,7 @@
 
 .uk-prev-btn,
 .uk-next-btn {
-    background-color: #342f7fb0;
+    background-color: var(--primary)b0;
     color: white;
     border-radius: 5px;
     margin-top: -8px;
@@ -97,7 +97,7 @@
 
 .uk-prev-btn:hover,
 .uk-next-btn:hover {
-    background-color: #342F7F;
+    background-color: var(--primary);
     color: white;
 }
 
@@ -140,11 +140,11 @@
 }
 
 .icon-blue {
-    background: #342F7F;
+    background: var(--primary);
 }
 
 .icon-green {
-    background: #23a455;
+    background: var(--secondary);
 }
 
 .timeline-content {
@@ -155,7 +155,7 @@
     flex: 1;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    color: #342F7F;
+    color: var(--primary);
     font-size:22px;
     margin-left: 82px;
     line-height: 22px;
@@ -164,7 +164,7 @@
 .timeline-number {
     font-weight: bold;
     font-size: 18px;
-    color: #23a455;
+    color: var(--secondary);
     margin-right: 8px;
 }
 
@@ -187,7 +187,7 @@
 
 .uk-circle-inner-section1 {
     border-radius: 100%;
-    background-color: #38AC4B;
+    background-color: var(--secondary);
     height: 110px;
     width: 110px;
     display: flex;
@@ -217,7 +217,7 @@
 
 /* blog section */
 .uk-blog-text h2:hover {
-    color: #38AC4B;
+    color: var(--secondary);
 }
 
 .uk-blog-section-img{
@@ -237,7 +237,26 @@
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
-
+.uk-inner-banner {
+    height: 60vh;
+    width: 100%;
+}
+.uk-inner-banner img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/******************************* product list page*********************************/
+.secondary-block{
+    background-color: var(--secondary);
+    height: 65px;
+    width: 100%;
+}
+.primary-block{
+    background-color: var(--primary);
+    height: 65px;
+    width: 100%;
+}
 /* footer */
 .uk-footer-ul{
     list-style: none;
@@ -250,9 +269,9 @@
     color: white;
 }
 .uk-footer-ul li a:hover{
-    color: #38AC4B;
+    color: var(--secondary);
 }
 .uk-icon-button{
-    background-color: #342F7F;
+    background-color: var(--primary);
     color: white;
 }

@@ -309,6 +309,22 @@
 <!--------------------------- blog section start ------------------------------------->
 <section class="uk-blog-section uk-section">
     <div class="uk-container uk-container-large">
+        <div class="uk-grid">
+            <div class="uk-width-2-3@m">
+                <h3 class=" uk-margin-small-bottom uk-text-secondary uk-border-secondary">our blogs</h3>
+                <h2 class="uk-margin-remove-top uk-text-primary">Latest News & Update</h2>
+            </div>
+            <div class="uk-width-1-3@m  uk-text-left uk-text-right@m">
+                <a href="#" class="uk-button uk-primary-btn uk-border-pill uk-margin-top">
+                    <div class="uk-flex uk-flex-middle uk-flex-center" style="gap:10px;">
+                        <span class="uk-btn-text">EXPLORE MORE</span>
+                        <span class="uk-btn-icon">
+                            <i class="fa-solid fa-paw"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
         <div class="uk-child-width-1-2@m" uk-grid>
             <div>
                 <div>
