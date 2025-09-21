@@ -16,10 +16,10 @@
 <!--------------------------- banner section end ------------------------------------->
 <!--------------------------- introduction section start ------------------------------------->
 <section class="uk-section ">
-    <div class="uk-container">
+    <div class="uk-container uk-container-large">
         <div class="uk-grid">
-            <div class="uk-width-1-4@s">
-                <div class="uk-child-width-1-2 uk-grid-collapse uk-grid">
+            <div class="uk-width-1-4@s uk-margin-bottom">
+                <div class="uk-child-width-1-2 uk-grid-collapse uk-grid ">
                     <div style="padding:3px;">
                         <div class="secondary-block border-rounded uk-flex uk-flex-middle uk-flex-center">
                             <img src="assets/img/icon/cow.png" height="60" width="60" alt="">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 <div class="uk-child-width-1-2 uk-grid-collapse uk-grid">
-                    
+
                     <div style="padding:3px;">
                         <div class="primary-block border-rounded uk-flex uk-flex-middle uk-flex-center">
                             <img src="assets/img/icon/hen.png" height="50" width="50" alt="">
@@ -54,22 +54,127 @@
 <!--------------------------- introduction section end ------------------------------------->
 <!--------------------------- list section start ------------------------------------->
 <section class="uk-section uk-bg-light">
-    <div class="uk-container">
+    <div class="uk-container uk-container-large">
         <div class=" uk-grid-small uk-grid">
-            <div class="uk-width-1-4@m">
-                sf
+            <div class="uk-width-1-4@m uk-margin-bottom">
+                <?php include('include/product-sidebar.php'); ?>
             </div>
             <div class="uk-width-3-4@m">
-                <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-child-width-1-4@l uk-grid">
+                <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-small uk-grid">
                     <!-- product card -->
-                    <div>
-                        <a href="#">
-                        <div class="product-img">
-                            <img src="" loading="lazy" alt="">
-                        </div>
+                    <div class="uk-margin-bottom">
+                        <a href="product-detail.php">
+                            <div class="product-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                                <img class="uk-transition-scale-up uk-transition-opaque" src="assets/img/product/1.png" height="250" width="250" loading="lazy" alt="">
+                            </div>
                         </a>
+                        <div class="product-name uk-padding-small">
+                            <span>Brand Name</span>
+                            <a href="product-detail.php">
+                                <h3 class="uk-margin-remove">Product Name</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- product card -->
+                    <div class="uk-margin-bottom">
+                        <a href="product-detail.php">
+                            <div class="product-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                                <img class="uk-transition-scale-up uk-transition-opaque" src="assets/img/product/2.png" height="250" width="250" loading="lazy" alt="">
+                            </div>
+                        </a>
+                        <div class="product-name uk-padding-small">
+                            <span>Brand Name</span>
+                            <a href="product-detail.php">
+                                <h3 class="uk-margin-remove">Product Name</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- product card -->
+                    <div class="uk-margin-bottom">
+                        <a href="product-detail.php">
+                            <div class="product-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                                <img class="uk-transition-scale-up uk-transition-opaque" src="assets/img/product/3.png" height="250" width="250" loading="lazy" alt="">
+                            </div>
+                        </a>
+                        <div class="product-name uk-padding-small">
+                            <span>Brand Name</span>
+                            <a href="product-detail.php">
+                                <h3 class="uk-margin-remove">Product Name</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- product card -->
+                    <div class="uk-margin-bottom">
+                        <a href="product-detail.php">
+                            <div class="product-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                                <img class="uk-transition-scale-up uk-transition-opaque" src="assets/img/product/4.png" height="250" width="250" loading="lazy" alt="">
+                            </div>
+                        </a>
+                        <div class="product-name uk-padding-small">
+                            <span>Brand Name</span>
+                            <a href="product-detail.php">
+                                <h3 class="uk-margin-remove">Product Name</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- product card -->
+                    <div class="uk-margin-bottom">
+                        <a href="product-detail.php">
+                            <div class="product-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                                <img class="uk-transition-scale-up uk-transition-opaque" src="assets/img/product/5.png" height="250" width="250" loading="lazy" alt="">
+                            </div>
+                        </a>
+                        <div class="product-name uk-padding-small">
+                            <span>Brand Name</span>
+                            <a href="product-detail.php">
+                                <h3 class="uk-margin-remove">Product Name</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- product card -->
+                    <div class="uk-margin-bottom">
+                        <a href="product-detail.php">
+                            <div class="product-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                                <img class="uk-transition-scale-up uk-transition-opaque" src="assets/img/product/6.png" height="250" width="250" loading="lazy" alt="">
+                            </div>
+                        </a>
+                        <div class="product-name uk-padding-small">
+                            <span>Brand Name</span>
+                            <a href="product-detail.php">
+                                <h3 class="uk-margin-remove">Product Name</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- product card -->
+                    <div class="uk-margin-bottom">
+                        <a href="product-detail.php">
+                            <div class="product-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                                <img class="uk-transition-scale-up uk-transition-opaque" src="assets/img/product/7.png" height="250" width="250" loading="lazy" alt="">
+                            </div>
+                        </a>
+                        <div class="product-name uk-padding-small">
+                            <span>Brand Name</span>
+                            <a href="product-detail.php">
+                                <h3 class="uk-margin-remove">Product Name</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- product card -->
+                    <div class="uk-margin-bottom">
+                        <a href="product-detail.php">
+                            <div class="product-img uk-inline-clip uk-transition-toggle" tabindex="0">
+                                <img class="uk-transition-scale-up uk-transition-opaque" src="assets/img/product/8.png" height="250" width="250" loading="lazy" alt="">
+                            </div>
+                        </a>
+                        <div class="product-name uk-padding-small">
+                            <span>Brand Name</span>
+                            <a href="product-detail.php">
+                                <h3 class="uk-margin-remove">Product Name</h3>
+                            </a>
+                        </div>
                     </div>
                 </div>
+                <?php include('include/pagination.php'); ?>
             </div>
         </div>
     </div>

@@ -73,7 +73,9 @@ h3 {
 .border-rounded {
     border-radius: 15px;
 }
-
+.border-full{
+    border: 1px solid #c5c5c5;
+}
 .border-left{
     border-left: 1px solid #c5c5c5;
 }
