@@ -3,7 +3,7 @@
 <div class="uk-inline uk-inner-banner">
     <img src="assets/img/company.jpg" loading="lazy" alt="">
     <div class="uk-overlay uk-overlay-primary uk-position-cover uk-banner-overlay uk-flex uk-flex-column uk-flex-center">
-        <div class=" uk-width-1-1 uk-text-center">
+        <div class=" uk-width-1-1 uk-text-center" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: h3,h1;  delay: 400; repeat: false;">
             <h3 class="uk-margin-remove">
                 <a href="index.php">HOME</a> /
                 ABOUT US
@@ -16,7 +16,7 @@
 
 <!---------------------------  introduction section start ------------------------------------->
 <section class="uk-section">
-    <div class="uk-container-large uk-container">
+    <div class="uk-container-large uk-container" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: div;  delay: 200; repeat: false;">
         <div class="uk-bg-light border-rounded uk-text-center uk-padding">
             <div class="uk-flex uk-flex-column uk-flex-middle uk-margin-bottom">
                 <h3 class=" uk-margin-small-bottom uk-text-secondary uk-border-secondary">Founding Background</h3>
@@ -61,7 +61,7 @@
 
 <!---------------------------  grid section start ------------------------------------->
 <section class="uk-section uk-padding-remove-top">
-    <div class="uk-container uk-container-large">
+    <div class="uk-container uk-container-large" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: div;  delay: 200; repeat: false;">
         <div class="uk-child-width-1-2@m uk-grid uk-grid-small uk-flex uk-flex-center uk-flex-middle"">
             <div class="uk-flex-last uk-flex-first@m uk-margin-bottom">
                 <div class="uk-bg-light border-rounded uk-padding">

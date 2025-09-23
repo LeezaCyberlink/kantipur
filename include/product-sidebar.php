@@ -1,4 +1,4 @@
-<div class="uk-product-sidebar uk-box-shadow-small " uk-sticky="end: true;offset: 100;">
+<div class="uk-product-sidebar uk-box-shadow-small " uk-sticky="end: true;offset: 100;"   style=" z-index: 5;">
     <ul class="uk-list uk-margin-remove">
         <li class="uk-margin-remove">
             <a href="product-list.php">

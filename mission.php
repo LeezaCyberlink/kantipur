@@ -3,7 +3,7 @@
 <div class="uk-inline uk-inner-banner">
     <img src="assets/img/commit.jpg" loading="lazy" alt="">
     <div class="uk-overlay uk-overlay-primary uk-position-cover uk-banner-overlay uk-flex uk-flex-column uk-flex-center">
-        <div class=" uk-width-1-1 uk-text-center">
+        <div class=" uk-width-1-1 uk-text-center" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: h3,h1;  delay: 400; repeat: false;">
             <h3 class="uk-margin-remove">
                 <a href="index.php">HOME</a> /
                 MISSION
@@ -16,7 +16,7 @@
 
 <!--------------------------- introduction section start ------------------------------------->
 <section class="uk-section">
-    <div class="uk-container uk-container-large">
+    <div class="uk-container uk-container-large" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: div;  delay: 200; repeat: false;">
         <div class="uk-grid uk-grid-small">
             <div class="uk-width-1-4@m uk-visible@m"">
                 <div>

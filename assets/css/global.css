@@ -4,6 +4,8 @@
 :root {
   --primary: #342F7F;
   --secondary: #38AC4B;
+  --white: #ffffff;
+  --black: #333;
 }
 body {
     font-family: "Poppins", sans-serif;
@@ -45,6 +47,8 @@ h3 {
 }
 .f-20{
     font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 5px !important;
 }
 
 .uk-text-primary {
@@ -87,6 +91,12 @@ h3 {
     border-bottom-left-radius: 17px;
 }
 /* background */
+.uk-bg-primary{
+    background-color: var(--primary);
+}
+.uk-bg-secondary{
+    background-color: var(--secondary);
+}
 .uk-bg-light {
     background-color: #efeef5;
 }
@@ -159,6 +169,10 @@ h3 {
 }
 .uk-img-cover{
     object-fit: cover;
+}
+.uk-input, .uk-select, .uk-textarea{
+   background: #e6e6e6; 
+   border-color: #e6e6e6 !important;
 }
 /* responsive */
 @media (max-width: 650px) {

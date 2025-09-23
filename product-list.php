@@ -4,7 +4,7 @@
 <div class="uk-inline uk-inner-banner">
     <img src="assets/img/commit/img2.jpg" loading="lazy" alt="">
     <div class="uk-overlay uk-overlay-primary uk-position-cover uk-banner-overlay uk-flex uk-flex-column uk-flex-center">
-        <div class=" uk-width-1-1 uk-text-center">
+        <div class=" uk-width-1-1 uk-text-center" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: h3,h1;  delay: 400; repeat: false;">
             <h3 class="uk-margin-remove">
                 <a href="index.php">HOME</a> /
                 Feed Supplement
@@ -16,8 +16,8 @@
 <!--------------------------- banner section end ------------------------------------->
 <!--------------------------- introduction section start ------------------------------------->
 <section class="uk-section ">
-    <div class="uk-container uk-container-large">
-        <div class="uk-grid">
+    <div class="uk-container uk-container-large" >
+        <div class="uk-grid" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: div;  delay: 100; repeat: false;">
             <div class="uk-width-1-4@s uk-margin-bottom">
                 <div class="uk-child-width-1-2 uk-grid-collapse uk-grid ">
                     <div style="padding:3px;">
@@ -56,11 +56,11 @@
 <section class="uk-section uk-bg-light">
     <div class="uk-container uk-container-large">
         <div class=" uk-grid-small uk-grid">
-            <div class="uk-width-1-4@m uk-margin-bottom">
+            <div class="uk-width-1-4@m uk-margin-bottom" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: div;  delay: 100; repeat: false;">
                 <?php include('include/product-sidebar.php'); ?>
             </div>
             <div class="uk-width-3-4@m">
-                <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-small uk-grid">
+                <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-small uk-grid" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: .uk-margin-bottom;  delay: 100; repeat: false;">
                     <!-- product card -->
                     <div class="uk-margin-bottom">
                         <a href="product-detail.php">

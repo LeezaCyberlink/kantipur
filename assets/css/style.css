@@ -1,6 +1,180 @@
+/******************************************Navbar CSS************************************************ */
+.uk-navbar {
+  height: 70px;
+}
+.uk-main-header-transparent {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  display: block;
+  background-color: #fff;
+}
+
+.uk-main-header-transparent .uk-navbar-nav > li > a {
+  color: var(--black);
+  height: 70px;
+}
+
+.uk-navbar-nav {
+  gap: 40px;
+}
+
+.uk-navbar-item,
+.uk-navbar-nav > li > a,
+.uk-navbar-toggle {
+  font-family: "Poppins", sans-serif;
+}
+
+.uk-navbar-toggle-animate svg > [class*="line-"] {
+  fill: var(--secondary);
+}
+
+.uk-main-header-transparent .uk-dropbar .uk-container {
+  border-top: 1px solid rgb(255 255 255 / 15%);
+}
+
+.uk-sticky.uk-sticky-below.uk-sticky-fixed
+  .uk-main-header-transparent
+  .uk-dropbar
+  .uk-container {
+  margin-top: 0;
+  padding: 0;
+  border: 0;
+}
+
+.uk-navbar-container.uk-navbar-transparent.uk-navbar-sticky {
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.uk-navbar-nav > li > a:active {
+  color: var(--secondary);
+}
+
+.uk-navbar-nav > li:hover > a,
+.uk-navbar-nav > li > a[aria-expanded="true"],
+.uk-navbar-dropdown-nav > li > a:hover,
+.uk-navbar-dropdown-nav > li.uk-active > a {
+  color: var(--secondary);
+}
+
+.uk-navbar-nav > li > a {
+  color: var(--black);
+  position: relative;
+  min-height: 70px;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.uk-sticky.uk-sticky-below.uk-sticky-fixed .uk-navbar-nav > li > a {
+  color: var(--black);
+}
+
+.uk-navbar-nav > li:hover > a::before,
+.uk-navbar-nav > li > a[aria-expanded="true"]::before {
+  left: var(--uk-navbar-nav-item-line-margin-horizontal);
+  right: var(--uk-navbar-nav-item-line-margin-horizontal);
+  opacity: 1;
+}
+
+.uk-navbar-nav > li > a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  height: 2px;
+  background-color: transparent;
+  transition: 0.5s ease-in-out;
+  transition-property: background-color, border-color, box-shadow, height, left,
+    right, opacity;
+  --uk-navbar-nav-item-line-margin-horizontal: 0;
+  left: var(--uk-navbar-nav-item-line-margin-horizontal);
+  left: 50%;
+  right: 50%;
+  background: var(--secondary);
+  opacity: 0;
+}
+
+.uk-navbar-dropdown-nav > li {
+  position: relative;
+}
+
+.uk-navbar-dropdown-nav > li.uk-active:before {
+  content: ">";
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: var(--secondary);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 36.25px;
+}
+
+.uk-nav.uk-nav-divider
+  > :not(.uk-nav-header, .uk-nav-divider)
+  + :not(.uk-nav-header, .uk-nav-divider) {
+  border-color: rgb(0 0 0 / 12%);
+}
+
+.uk-nav-primary li a {
+  padding: 8px 40px;
+  font-size: 17px;
+}
+
+.uk-nav-primary > li > a {
+  color: var(--black);
+}
+
+.uk-nav-primary > li > a:hover,
+.uk-nav-primary > li > a:focus,
+.uk-nav-primary > li.uk-active a {
+  color: var(--secondary);
+}
+.uk-can-btn {
+  padding: 0px 11px !important;
+  border-color: var(--primary) !important;
+  background: var(--primary) !important;
+  color: var(--white) !important;
+  border-radius: 6px !important;
+}
+.uk-offcanvas-header {
+  background-color: var(--white);
+  padding-left: 15px;
+}
+.uk-offcanvas-close {
+  background: #342f7f;
+  color: white !important;
+  padding: 10px;
+  border-radius: 6px;
+  top: 18px;
+}
+.uk-offcanvas-nav {
+  list-style: none;
+  padding: 0;
+}
+.uk-offcanvas-nav li a {
+  font-weight: 600;
+  color: #616161;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  transition: 0.2s ease-in-out;
+  font-size: 17px;
+}
+.uk-offcanvas-nav li {
+  padding: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+.uk-offcanvas-nav li a:hover {
+  color: var(--secondary);
+}
+/******************************************End  Navbar CSS************************************************ */
 /* homepage */
 
 /* banner section  */
+.uk-homepage-banner{
+  height: 100vh;
+}
 .uk-banner-overlay {
   background-color: #21202070;
 }
@@ -66,7 +240,7 @@
 /* commitment section */
 .uk-commit-img img {
   border-radius: 100%;
-  height: 180px;
+  height: 170px;
   width: 180px;
   object-fit: cover;
 }
@@ -223,7 +397,11 @@
 .uk-blog-text h2:hover {
   color: var(--secondary);
 }
-
+.uk-blog-section {
+  width: 100%;
+  border-top-right-radius: 17px;
+  border-top-left-radius: 17px;
+}
 .uk-blog-section-img {
   height: 245px;
   width: 100%;
@@ -382,12 +560,12 @@
   text-transform: uppercase;
   font-weight: 600;
 }
-.uk-detail-img {
+.uk-detail-img1 {
   background-color: #efeef5;
   border-radius: 17px;
   height: 350px;
 }
-.uk-detail-img img {
+.uk-detail-img1 img {
   height: 100%;
   width: 100%;
   object-fit: contain;
@@ -441,32 +619,65 @@
 }
 /******************************* career detail page*********************************/
 .bold-font {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 17px;
 }
-.career-table td{
-max-width: 500px;
+.career-table td {
+  max-width: 500px;
 }
-.career-head{
+.career-head {
   background-color: var(--primary);
   color: white;
 }
-.career-head tr th{
-      color: white;
-    font-size: 17px;
-    font-weight: 500;
+.career-head tr th {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
 }
 .dialog-header {
   background-color: var(--primary);
   padding: 12px;
 }
-.dialog-header h3{
+.dialog-header h3 {
   font-size: 18px !important;
   font-weight: 600 !important;
   color: white;
 }
-
+.custom-upload {
+  padding: 11px;
+  margin-top: 10px;
+}
+/******************************* blog detail page*********************************/
+.uk-blog-detail-img {
+  height: 450px;
+  width: 100%;
+}
+.uk-blog-detail-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.blog-sidebar-heading {
+  background-color: #c2c6dd;
+  font-size: 18px;
+  padding: 14px;
+  font-weight: 600;
+}
+/******************************* contact page*********************************/
+.contact-box {
+  height: 50px;
+  width: 50px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-box i {
+  font-size: 26px !important;
+  color: white;
+}
 /* footer */
 .uk-footer-ul {
   list-style: none;

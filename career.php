@@ -3,12 +3,12 @@
 <div class="uk-inline uk-inner-banner">
     <img src="assets/img/vision.jpg" loading="lazy" alt="">
     <div class="uk-overlay uk-overlay-primary uk-position-cover uk-banner-overlay uk-flex uk-flex-column uk-flex-center">
-        <div class=" uk-width-1-1 uk-text-center">
+        <div class=" uk-width-1-1 uk-text-center" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target:  h3, h1;  delay: 400; repeat: false;">
             <h3 class="uk-margin-remove">
                 <a href="index.php">HOME</a> /
                 Career
             </h3>
-            <h1 class="uk-margin-small-top">Career</h1>
+            <h1 class="uk-margin-small-bottom-top">Career</h1>
         </div>
     </div>
 </div>
@@ -16,7 +16,7 @@
 <!--------------------------- table section start ------------------------------------->
 <section class="uk-section">
     <div class="uk-container uk-container-large">
-        <table class="uk-table uk-table-striped uk-table-responsive career-table border-rounded" style="overflow:hidden;">
+        <table class="uk-table uk-table-striped uk-table-responsive career-table border-rounded" style="overflow:hidden;" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target:  tr;  delay: 400; repeat: false;">
             <thead class="career-head">
                 <tr>
                     <th>Job Title</th>
@@ -68,29 +68,59 @@
             <small class="uk-text-danger">Fields marked with * are required.</small>
             <form action="">
                 <div class="uk-child-width-1-2@m uk-grid uk-margin-top">
-                    <div class="uk-margin">
+                    <div class="uk-margin-small-bottom">
                         <label for="name">Your Full Name<span><small class="uk-text-danger">*</small></span></label>
                         <input class="uk-input" type="text" placeholder="" aria-label="Input" id="name">
                     </div>
-                    <div class="uk-margin">
+                    <div class="uk-margin-small-bottom">
                         <label for="number">Your Phone Number<span><small class="uk-text-danger">*</small></span></label>
                         <input class="uk-input" type="email" placeholder="" aria-label="Input" id="email">
                     </div>
-                    <div class="uk-margin">
+                    <div class="uk-margin-small-bottom">
                         <label for="email">Your Email<span><small class="uk-text-danger">*</small></span></label>
                         <input class="uk-input" type="text" placeholder="" aria-label="Input" id="name">
                     </div>
-                    <div class="uk-margin">
+                    <div class="uk-margin-small-bottom">
                         <label for="year">Experience in Year<span><small class="uk-text-danger">*</small></span></label>
                         <input class="uk-input" type="text" placeholder="" aria-label="Input" id="year">
                     </div>
-                    <div class="uk-margin">
+                    <div>
                         <label for="ctc">Current CTC<span><small class="uk-text-danger">*</small></span></label>
                         <input class="uk-input" type="text" placeholder="" aria-label="Input" id="ctc">
                     </div>
-                    <div class="uk-margin">
+                    <div class="uk-margin-small-bottom">
                         <label for="current">Current Organization<span><small class="uk-text-danger">*</small></span></label>
                         <input class="uk-input" type="text" placeholder="" aria-label="Input" id="current">
+                    </div>
+                </div>
+                <div class="uk-grid uk-margin-remove-top">
+                    <div class="uk-width-2-3@l">
+                        <div class="uk-flex">
+                            <div class="uk-margin-small-bottom uk-margin-small-right">
+                                <div uk-form-custom class="custom-upload uk-bg-primary">
+                                    <input type="file" aria-label="Custom controls">
+                                    <span class="uk-link uk-text-white"><span uk-icon="icon: cloud-upload" class="uk-margin-small-right"></span>Upload CV</span>
+                                </div>
+                            </div>
+                            <div class="uk-margin-small-bottom">
+                                <div uk-form-custom class="custom-upload uk-bg-secondary">
+                                    <input type="file" aria-label="Custom controls">
+                                    <span class="uk-link uk-text-white"><span uk-icon="icon: cloud-upload" class="uk-margin-small-right"></span>Upload Cover Letter</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-widh-1-2@l uk-flex uk-flex-middle">
+                        <div>
+                            <a href="#" class="uk-button uk-primary-btn uk-border-pill">
+                                <div class="uk-flex uk-flex-middle uk-flex-center" style="gap:10px;">
+                                    <span class="uk-btn-text">SUBMIT NOW</span>
+                                    <span class="uk-btn-icon">
+                                        <i class="fa-solid fa-paw"></i>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </form>
@@ -98,5 +128,7 @@
 
     </div>
 </div>
+
+
 <!--------------------------- table section end ------------------------------------->
 <?php include('include/footer.php'); ?>

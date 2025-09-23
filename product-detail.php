@@ -3,7 +3,7 @@
 <div class="uk-inline uk-detail-banner">
     <img src="assets/img/commit/img4.jpg" loading="lazy" alt="">
     <div class="uk-overlay uk-overlay-primary uk-position-cover uk-detail-overlay uk-flex uk-flex-column uk-flex-center">
-        <div class=" uk-width-1-1 uk-text-center">
+        <div class=" uk-width-1-1 uk-text-center" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: h1;  delay: 400; repeat: false;">
             <h1 class="uk-margin-small-top">Clearcal-P-Oral</h1>
         </div>
     </div>
@@ -12,9 +12,9 @@
 <!--------------------------- introduction section start ------------------------------------->
 <section class="uk-section">
     <div class="uk-container uk-container-large">
-        <div class="uk-grid-small uk-grid">
+        <div class="uk-grid-small uk-grid" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target:div;  delay: 400; repeat: false;">
             <div class="uk-width-1-3@m  border-rounded uk-flex uk-flex-center uk-flex-middle ">
-                <div class="uk-detail-img uk-padding uk-margin-bottom uk-inline-clip uk-transition-toggle" tabindex="0">
+                <div class="uk-detail-img1 uk-padding uk-margin-bottom uk-inline-clip uk-transition-toggle" tabindex="0">
                     <img class="uk-transition-scale-up uk-transition-opaque" src="assets/img/product/1.png" loading="lazy" alt="">
                 </div>
             </div>
@@ -84,9 +84,8 @@
 <!--------------------------- realted section start ------------------------------------->
 <section class="uk-section uk-bg-light">
     <div class="uk-container uk-container-large">
-        <div class="uk-grid">
+        <div class="uk-grid" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: h2,a;  delay: 400; repeat: false;">
             <div class="uk-width-2-3@m uk-text-center uk-text-left@m">
-
                 <h2 class="uk-margin-remove-top uk-text-primary">Similar Products</h2>
             </div>
             <div class="uk-width-1-3@m  uk-text-right uk-visible@m">
@@ -100,7 +99,7 @@
                 </a>
             </div>
         </div>
-        <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-small uk-grid">
+        <div class="uk-child-width-1-2 uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-small uk-grid" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: .uk-margin-bottom;  delay: 400; repeat: false;">
             <!-- product card -->
             <div class="uk-margin-bottom">
                 <a href="product-detail.php">
@@ -159,7 +158,7 @@
             </div>
 
         </div>
-        <div class=" uk-text-center uk-hidden@m ">
+        <div class=" uk-text-center uk-hidden@m " uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: a;  delay: 400; repeat: false;">
             <a href="product-list.php" class="uk-button uk-primary-btn uk-border-pill uk-margin-top">
                 <div class="uk-flex uk-flex-middle uk-flex-center" style="gap:10px;">
                     <span class="uk-btn-text">EXPLORE MORE</span>
