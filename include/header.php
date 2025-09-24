@@ -19,7 +19,7 @@
         <!-- Main Menu -->
         <div class="uk-visible@l uk-main-header-transparent uk-navbar-container uk-navbar-transparent">
             <div class="uk-container uk-container-large shadow-lg">
-                <nav class="uk-navbar d-flex uk-flex-middle" uk-navbar>
+                <nav class="uk-navbar d-flex uk-flex-middle" uk-navbar="mode: hover; delay-show: 300; delay-hide: 500">
                     <div class="uk-navbar-left">
                         <a class="uk-navbar-item uk-logo " href="index.php">
                             <img src="assets/img/logo.png" alt="" width="120" class="uk-logo-white">
@@ -32,6 +32,16 @@
                             <li><a href="product-list.php">Product</a></li>
                             <li><a href="blog.php">News / Blogs</a></li>
                             <li><a href="career.php">Career</a></li>
+                            <li>
+                                <a href="#">Parent</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li class="uk-active"><a href="#">Active</a></li>
+                                        <li><a href="#">Item</a></li>
+                                        <li><a href="#">Item</a></li>
+                                    </ul>
+                                </div>
+                            </li>
                             <li><a href="contact.php">Contact</a></li>
                         </ul>
                     </div>
@@ -75,18 +85,18 @@
                                         </div>
                                     </div>
                                     <div class="uk-offcanvas-body uk-padding-small">
-                                        <ul class="uk-offcanvas-nav uk-position-relative" uk-nav>
+                                        <ul class="uk-offcanvas-nav uk-position-relative" uk-nav="multiple: true;">
                                             <li><a href="index.php">Home</a></li>
                                             <li><a href="about.php">About</a></li>
                                             <li><a href="mission.php">Mission</a></li>
-                                            <li class="uk-parent"><a href="#">Product<span uk-nav-parent-icon></span></a>
-                                                <ul class="uk-nav-sub uk-padding-remove">
-                                                    <li><a href="product-list.php">Feed Supplement</a></li>
+                                            <li class="uk-parent">
+                                                <a href="#">Product<span uk-nav-parent-icon></span></a>
+                                                <ul class=" uk-padding-remove">
+                                                    <li><a href="product-list.php">Allopathic</a></li>
                                                     <li><a href="product-list.php">Allopathic</a></li>
                                                     <li><a href="product-list.php">Marketing Division</a></li>
                                                 </ul>
                                             </li>
-
                                             <li><a href="blog.php">News / Blogs</a></li>
                                             <li><a href="career.php">Career</a></li>
                                             <li><a href="contact.php">Contact</a></li>
