@@ -32,7 +32,7 @@
                 <div class="uk-margin-bottom">
                     <form class="uk-contact-form">
                         <h2 class="uk-text-primary uk-margin-remove ">ENQUIRY NOW</h2>
-                        <div class=" uk-child-width-1-2 uk-grid">
+                        <div class=" uk-child-width-1-2@s uk-grid">
                             <div class="uk-margin-top">
                                 <label class="uk-form-label uk-text-bold" for="firstname">First Name</label>
                                 <div class="uk-form-controls">

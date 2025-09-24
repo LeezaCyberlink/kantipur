@@ -1,6 +1,6 @@
 <?php include('include/header.php'); ?>
 <!--------------------------- banner section end ------------------------------------->
-<section class="uk-homepage-banner" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target:  h3,h1;  delay: 400; repeat: false;" >
+<section class="uk-homepage-banner" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target:  h3,h1;  delay: 400; repeat: false;">
     <div class="uk-position-relative" id="ytbg3" data-youtube="https://youtu.be/LQcKieGJV-M?si=-uBckRG6w6UAxN-D" data-ytbg-mute-button="true" data-ytbg-autoplay="true" data-ytbg-muted="true" data-ytbg-loop="true"></div>
     <div class="uk-overlay uk-overlay-primary uk-position-cover uk-banner-overlay uk-flex uk-flex-column uk-flex-right">
         <div class=" uk-width-1-1 uk-width-2-3@l  uk-margin-large-top">
@@ -118,7 +118,7 @@
 
                     <!--  -->
                     <div>
-                       <div class="uk-commit-img uk-flex uk-flex-center uk-margin-small-bottom uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <div class="uk-commit-img uk-flex uk-flex-center uk-margin-small-bottom uk-inline-clip uk-transition-toggle" tabindex="0">
                             <img src="assets/img/commit/img4.jpg" class="uk-transition-scale-up uk-transition-opaque" loading="lazy" width="400" height="600" alt="">
                         </div>
                         <div class="uk-text-center uk-commit-text">
@@ -128,7 +128,7 @@
 
                     <!--  -->
                     <div>
-                       <div class="uk-commit-img uk-flex uk-flex-center uk-margin-small-bottom uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <div class="uk-commit-img uk-flex uk-flex-center uk-margin-small-bottom uk-inline-clip uk-transition-toggle" tabindex="0">
                             <img src="assets/img/commit/img1.jpg" class="uk-transition-scale-up uk-transition-opaque" loading="lazy" width="400" height="600" alt="">
                         </div>
                         <div class="uk-text-center uk-commit-text">
@@ -171,7 +171,7 @@
                 </div>
             </div>
             <div class="uk-width-2-3@m" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target: div;  delay: 100; repeat: false;">
-                <div class="uk-container timeline" >
+                <div class="uk-container timeline">
 
                     <div class="timeline-item">
                         <div class="timeline-icon icon-blue">
@@ -234,7 +234,7 @@
 <section class=" uk-strenght-section ">
     <div class="uk-container uk-container-large">
         <div class="uk-grid" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target:  div;  delay: 400; repeat: false;">
-            <div class="uk-width-2-3@m uk-same-height uk-margin-bottom"  >
+            <div class="uk-width-2-3@m uk-same-height uk-margin-bottom">
                 <h3 class=" uk-margin-small-bottom uk-text-secondary uk-border-secondary">our strength</h3>
                 <h2 class="uk-margin-remove-top uk-text-primary">Quality Assurance / Quality Management</h2>
                 <div class="uk-bg-light border-rounded uk-padding-small p-26">
@@ -277,7 +277,7 @@
         </div>
         <div class="uk-child-width-1-2@m" uk-grid uk-height-match=".same-height" uk-scrollspy=" cls: uk-animation-slide-bottom-small; target:  div;  delay: 400; repeat: false;">
             <div class="uk-inline-clip uk-transition-toggle border-rounded" tabindex="0">
-                <img src="assets/img/team.png" class="uk-transition-scale-up uk-transition-opaque border-rounded same-height uk-img-cover" alt="" loading="lazy" >
+                <img src="assets/img/team.png" class="uk-transition-scale-up uk-transition-opaque border-rounded same-height uk-img-cover" alt="" loading="lazy">
             </div>
             <div class="same-height">
                 <h2 class="f-20 uk-margin-remove uk-text-white">a visionary team empowering animal health in nepal</h2>
@@ -352,97 +352,106 @@
             <div class="block">
                 <div class="uk-bg-light border-rounded uk-margin-bottom">
                     <div class="uk-grid uk-grid-small ">
-                        <div class="uk-width-1-3">
+                        <div class="uk-width-1-3@s">
                             <a href="blog-detail.php" class="uk-width-1-1  uk-inline-clip uk-transition-toggle" tabindex="0">
                                 <img src="assets/img/blog2.webp" class="uk-blog-small-img uk-transition-scale-up uk-transition-opaque" loading="lazy" alt="">
                             </a>
                         </div>
-                        <div class="uk-width-2-3 uk-flex uk-flex-column uk-flex-center">
-                            <div class="uk-flex" style="gap:15px;">
-                                <div class="uk-text-uppercase">
-                                    <i class="fa-solid fa-user uk-text-secondary uk-margin-small-right"></i>
-                                    Admin Name
+                        <div class="uk-width-2-3@s uk-flex uk-flex-column uk-flex-center">
+                            <div class="uk-blog-small-text">
+                                <div class="uk-flex" style="gap:15px;">
+                                    <div class="uk-text-uppercase">
+                                        <i class="fa-solid fa-user uk-text-secondary uk-margin-small-right"></i>
+                                        Admin Name
+                                    </div>
+                                    <div class="uk-text-uppercase">
+                                        <i class="fa-solid fa-calendar uk-text-secondary uk-margin-small-right"></i>
+                                        27 August, 2025
+                                    </div>
                                 </div>
-                                <div class="uk-text-uppercase">
-                                    <i class="fa-solid fa-calendar uk-text-secondary uk-margin-small-right"></i>
-                                    27 August, 2025
-                                </div>
+                                <a href="blog-detail.php" class="uk-blog-text">
+                                    <h2 class="f-18 uk-margin-remove two-line">Behavior and training animals</h2>
+                                </a>
                             </div>
-                            <a href="blog-detail.php" class="uk-blog-text">
-                                <h2 class="f-18 uk-margin-remove two-line">Behavior and training animals</h2>
-                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="uk-bg-light border-rounded uk-margin-bottom">
                     <div class="uk-grid uk-grid-small ">
-                        <div class="uk-width-1-3">
+                        <div class="uk-width-1-3@s">
                             <a href="blog-detail.php" class="uk-width-1-1  uk-inline-clip uk-transition-toggle" tabindex="0">
                                 <img src="assets/img/blog3.jpeg" class="uk-blog-small-img uk-transition-scale-up uk-transition-opaque" loading="lazy" alt="">
                             </a>
                         </div>
-                        <div class="uk-width-2-3 uk-flex uk-flex-column uk-flex-center">
-                            <div class="uk-flex" style="gap:15px;">
-                                <div class="uk-text-uppercase">
-                                    <i class="fa-solid fa-user uk-text-secondary uk-margin-small-right"></i>
-                                    Admin Name
+                        <div class="uk-width-2-3@s uk-flex uk-flex-column uk-flex-center">
+                            <div class="uk-blog-small-text">
+                                <div class="uk-flex" style="gap:15px;">
+                                    <div class="uk-text-uppercase">
+                                        <i class="fa-solid fa-user uk-text-secondary uk-margin-small-right"></i>
+                                        Admin Name
+                                    </div>
+                                    <div class="uk-text-uppercase">
+                                        <i class="fa-solid fa-calendar uk-text-secondary uk-margin-small-right"></i>
+                                        27 August, 2025
+                                    </div>
                                 </div>
-                                <div class="uk-text-uppercase">
-                                    <i class="fa-solid fa-calendar uk-text-secondary uk-margin-small-right"></i>
-                                    27 August, 2025
-                                </div>
+                                <a href="blog-detail.php" class="uk-blog-text">
+                                    <h2 class="f-18 uk-margin-remove two-line">Behavior and training animals</h2>
+                                </a>
                             </div>
-                            <a href="blog-detail.php" class="uk-blog-text">
-                                <h2 class="f-18 uk-margin-remove two-line">Behavior and training animals</h2>
-                            </a>
+
                         </div>
                     </div>
                 </div>
                 <div class="uk-bg-light border-rounded uk-margin-bottom">
                     <div class="uk-grid uk-grid-small ">
-                        <div class="uk-width-1-3">
+                        <div class="uk-width-1-3@s">
                             <a href="blog-detail.php" class="uk-width-1-1  uk-inline-clip uk-transition-toggle" tabindex="0">
                                 <img src="assets/img/blog4.jpeg" class="uk-blog-small-img uk-transition-scale-up uk-transition-opaque" loading="lazy" alt="">
                             </a>
                         </div>
-                        <div class="uk-width-2-3 uk-flex uk-flex-column uk-flex-center">
-                            <div class="uk-flex" style="gap:15px;">
-                                <div class="uk-text-uppercase">
-                                    <i class="fa-solid fa-user uk-text-secondary uk-margin-small-right"></i>
-                                    Admin Name
+                        <div class="uk-width-2-3@s uk-flex uk-flex-column uk-flex-center">
+                            <div class="uk-blog-small-text">
+                                <div class="uk-flex" style="gap:15px;">
+                                    <div class="uk-text-uppercase">
+                                        <i class="fa-solid fa-user uk-text-secondary uk-margin-small-right"></i>
+                                        Admin Name
+                                    </div>
+                                    <div class="uk-text-uppercase">
+                                        <i class="fa-solid fa-calendar uk-text-secondary uk-margin-small-right"></i>
+                                        27 August, 2025
+                                    </div>
                                 </div>
-                                <div class="uk-text-uppercase">
-                                    <i class="fa-solid fa-calendar uk-text-secondary uk-margin-small-right"></i>
-                                    27 August, 2025
-                                </div>
+                                <a href="blog-detail.php" class="uk-blog-text">
+                                    <h2 class="f-18 uk-margin-remove two-line">Behavior and training animals</h2>
+                                </a>
                             </div>
-                            <a href="blog-detail.php" class="uk-blog-text">
-                                <h2 class="f-18 uk-margin-remove two-line">Behavior and training animals</h2>
-                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="uk-bg-light border-rounded uk-margin-bottom">
                     <div class="uk-grid  uk-grid-small">
-                        <div class="uk-width-1-3">
+                        <div class="uk-width-1-3@s">
                             <a href="blog-detail.php">
                                 <img src="assets/img/blog1.png" class="uk-blog-small-img" loading="lazy" alt="">
                             </a>
                         </div>
-                        <div class="uk-width-2-3 uk-flex uk-flex-column uk-flex-center">
-                            <div class="uk-flex" style="gap:15px;">
-                                <div class="uk-text-uppercase">
-                                    <i class="fa-solid fa-user uk-text-secondary uk-margin-small-right"></i>
-                                    Admin Name
+                        <div class="uk-width-2-3@s uk-flex uk-flex-column uk-flex-center">
+                            <div class="uk-blog-small-text">
+                                <div class="uk-flex" style="gap:15px;">
+                                    <div class="uk-text-uppercase">
+                                        <i class="fa-solid fa-user uk-text-secondary uk-margin-small-right"></i>
+                                        Admin Name
+                                    </div>
+                                    <div class="uk-text-uppercase">
+                                        <i class="fa-solid fa-calendar uk-text-secondary uk-margin-small-right"></i>
+                                        27 August, 2025
+                                    </div>
                                 </div>
-                                <div class="uk-text-uppercase">
-                                    <i class="fa-solid fa-calendar uk-text-secondary uk-margin-small-right"></i>
-                                    27 August, 2025
-                                </div>
+                                <a href="blog-detail.php" class="uk-blog-text">
+                                    <h2 class="f-18 uk-margin-remove two-line">Behavior and training animals Behavior and training animals</h2>
+                                </a>
                             </div>
-                            <a href="blog-detail.php" class="uk-blog-text">
-                                <h2 class="f-18 uk-margin-remove two-line">Behavior and training animals Behavior and training animals</h2>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -450,13 +459,13 @@
         </div>
         <div class="uk-hidden@s">
             <a href="blog.php" class="uk-button uk-primary-btn uk-border-pill uk-margin-top">
-                    <div class="uk-flex uk-flex-middle uk-flex-center" style="gap:10px;">
-                        <span class="uk-btn-text">EXPLORE MORE</span>
-                        <span class="uk-btn-icon">
-                            <i class="fa-solid fa-paw"></i>
-                        </span>
-                    </div>
-                </a>
+                <div class="uk-flex uk-flex-middle uk-flex-center" style="gap:10px;">
+                    <span class="uk-btn-text">EXPLORE MORE</span>
+                    <span class="uk-btn-icon">
+                        <i class="fa-solid fa-paw"></i>
+                    </span>
+                </div>
+            </a>
         </div>
     </div>
 </section>
